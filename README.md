@@ -4,7 +4,7 @@ Open streams from [NRK](http://tv.nrk.no) in XBMC. Supports multiple hosts.
 
 **Usage**
 ```
-python nrktoxbmc.py <stream_url> [<host_name]
+python nrktoxbmc.py <stream_url> [<host_name>]
 ```
 
 **Examples**
