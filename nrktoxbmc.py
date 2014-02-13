@@ -24,7 +24,7 @@ def call_xbmc(host, stream):
 # Get video id
 def get_video_id(url):
     # Find video id
-    video_id = re.search(r'([koid|dmpv|mdfp]{4}[0-9]+)', url)
+    video_id = re.search(r'\/([a-z]{4}[0-9]+)', url)
     
     if video_id:
         if video_id.group(1):
