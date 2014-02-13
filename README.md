@@ -1,6 +1,6 @@
 NRKtoXBMC
 ============================
-Open streams from [NRK](http://tv.nrk.no) in XBMC. Supports multiple hosts.
+Open streams from [NRK](http://tv.nrk.no) in XBMC from the command line. Supports multiple hosts.
 
 **Configuration**  
 Enable the webserver in XBMC (Settings->Services->Webserver).  
