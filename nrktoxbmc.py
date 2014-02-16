@@ -69,8 +69,7 @@ if __name__ == '__main__':
                 
                 if stream['available'] and stream['url']:
                     # Call XBMC
-                    #response = call_xbmc(host, stream['url'])
-                    response = None
+                    response = call_xbmc(host, stream['url'])
                     
                     if response:
                         print '[OK]', 'Stream sent to XBMC host'
